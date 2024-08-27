@@ -1,0 +1,162 @@
+html,
+body {
+	height: 100%;
+      font-family: "Josefin Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+}
+
+*{margin: 0;
+    box-sizing: border-box;}    
+
+.ul1 {display: flex;
+      list-style-type: none;
+      }
+
+.textoheader {padding-top: 40px;
+              padding-left: 100px;}
+
+#entrarhead {color: red}
+
+#accounthead{color: white;
+             background-color: red;
+             border-radius: 30px;
+             }
+
+#accounthead a{text-decoration: none;
+               color: white;}
+               
+#carhead{color: white;
+    background-color: red;
+    border-radius: 30px; }
+
+
+#carhead a {text-decoration: none;
+    color: white;}
+
+
+
+#logo { height: 160px;
+        width: 160px;}    
+        
+#nav {text-align: center;}
+
+#nav input{width: 500px;
+           height: 50px;
+           border-radius: 40px;
+           background-color: rgb(238, 238, 238);
+        }
+
+#nav-input::placeholder {font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    padding-left: 20px;}
+
+    #main {display: grid;
+        grid-template-columns: 0.5fr 1.5fr 1.3fr 0.5fr; 
+        grid-template-rows: 80px 233px 273px;}
+
+#vermelho{display: grid;
+          grid-row: 2;
+          grid-column: 2;
+          background-color: red;
+          border-radius: 40px;
+          width: 520px;
+          height: 220px;
+          background-image: url(images-removebg-preview.png);
+          background-repeat: no-repeat;
+          background-position: right;
+          box-shadow: 3px 3px 10px black}
+
+#vermelho2{display: grid;
+           grid-row: 3;
+           grid-column: 3;
+           background-color: red;
+           border-radius: 40px;
+           width: 520px;
+           height: 220px;
+           background-image: url(8d75953d17ff6ff00706222b52bf0ac6\ 1.png);
+           background-repeat: no-repeat;
+           background-position: right;
+           box-shadow: 3px 3px 10px black}
+
+#vermelho-text{    padding-left: 65px;
+                   padding-top: 60px;}
+
+#vermelho-text a{ text-decoration: none;
+                  color: white;
+                  background-color: rgb(168, 36, 36);
+                  border-radius: 10px;
+                  width: 100px;
+                  height: 100px;
+                }
+
+#vermelho-text h2{ color: white;
+                   font-weight: 400;
+                   font-size: 40px;}
+
+
+#vermelho-text div{ text-decoration: none;
+                    color: white;
+                    background-color: rgb(168, 36, 36);
+                    border-radius: 10px;
+                    width: 180px;
+                    height: 30px;
+                    text-align: center;
+                    padding-top: 7px;}
+
+#vermelho-text2{ padding-left: 65px;
+                 padding-top: 60px;}
+
+#vermelho-text2 h2{color: white;
+                   font-weight: 400;
+                   font-size: 40px;}
+
+#vermelho-text2 div{ text-decoration: none;
+                    color: white;
+                    background-color: rgb(168, 36, 36);
+                    border-radius: 10px;
+                    width: 180px;
+                    height: 30px;
+                    text-align: center;
+                    padding-top: 7px;}
+            
+
+#vermelho-text2 a{ text-decoration: none;
+                color: white;
+                background-color: rgb(168, 36, 36);
+                border-radius: 10px;
+                width: 100px;
+                height: 100px;
+}
+
+footer {grid-area: footer;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items:center ;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    color: black;
+    height: 15vh;}
+
+footer>ul{list-style: none;}
+
+#lucasito-font{font-weight: 900;}
+#footer{ font-weight: 340;}
+
+#footer>ul>li>svg{height: 30px;
+                  width: 30px;
+                  text-align: center;}
+
+#nav-feedback{text-align: center;
+              padding-top: 100px;
+              padding-right: 80px;
+              grid-row: 3;
+              grid-column: 2;
+              font-size: 20px;}
+
+
+                
+

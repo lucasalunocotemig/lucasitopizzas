@@ -1,0 +1,115 @@
+html,
+body {
+	height: 100%;
+      font-family: "Josefin Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+}
+
+*{margin: 0;
+    box-sizing: border-box;}   
+
+    .ul1 {display: flex;
+        list-style-type: none;
+        }
+  
+  .textoheader {padding-top: 40px;
+                padding-left: 100px;}
+            
+    .textoheader a{color: black;
+     text-decoration: none;}
+  
+  #entrarhead {color: red}
+  
+  #accounthead{color: white;
+               background-color: red;
+               border-radius: 30px;
+               }
+  
+  #accounthead a{text-decoration: none;
+                 color: white;}
+                 
+  #carhead{color: white;
+      background-color: red;
+      border-radius: 30px; }
+  
+  
+  #carhead a {text-decoration: none;
+      color: white;}
+  
+  
+  
+  #logo { height: 160px;
+          width: 160px;}
+
+
+#account-create {display: grid;
+                 grid-template-columns: 1fr 1fr 1fr;
+                 grid-template-rows: 600px;}
+
+#background-create {display: grid;
+                    grid-column: 2;
+                    grid-row: 1; 
+                    background-color: red;
+                    border-radius: 30px;}
+                
+#create{color: white;
+        font-size: 35px;
+        text-align: center;
+        padding-top: 25px;
+        font-weight: bold;}
+
+.email{color: white;
+       font-size: 25px;
+       padding-left: 45px;}
+.email input {width: 330px;
+              height: 35px;
+              border-radius: 15px;
+              }
+
+.email svg{width: 60px;
+           height: 60px;
+           color: white;}
+
+#register a{color: white;
+            text-decoration: none;
+            font-size: 35px;}
+#register{text-align: center;}
+
+
+#button-register{display: inline-block;
+    width: 202px;
+    height: 53px;
+    background-color: rgb(128, 0, 0);
+    border-radius: 30px;
+    text-align: center;
+    line-height: 53px;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;}
+
+    footer {grid-area: footer;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        justify-items:center ;
+        align-items: center;
+        background-color: rgb(238, 238, 238);
+        color: black;
+        height: 15vh;}
+    
+    footer>ul{list-style: none;}
+    
+    #lucasito-font{font-weight: 900;}
+    #footer{ font-weight: 340;}
+    
+    #footer>ul>li>svg{height: 30px;
+                      width: 30px;
+                      text-align: center;}
+    
+    #nav-feedback{text-align: center;
+                  padding-top: 100px;
+                  padding-right: 80px;
+                  grid-row: 3;
+                  grid-column: 2;
+                  font-size: 20px;}
